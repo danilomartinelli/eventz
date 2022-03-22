@@ -11,6 +11,16 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <%= image_tag("logo") %>
+    </header>
+    
+    <div class="content">
+      <%= yield %>
+    </div>
+  
+  <footer>
+    <p>Made in <a href="ghttps://danilomartinelli.xyz">Danilo Martinelli</a></p>
+  </footer>
   </body>
 </html>
